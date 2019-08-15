@@ -26,10 +26,13 @@ switch (numberInput)
         break;
     case "3":
         alert("3");
+        // you have to break
     case "4":
         alert("4");
+        // you have to break
     case "5":
         alert("5")
+        // you have to break
 }
 
 //Problem 2
@@ -37,6 +40,8 @@ let threeDigitInput= prompt("Enter 3 digit binary number:");
 switch (threeDigitInput)
 {
     case "1":
+    // you are cheking that the user enters the decimal number and returning the binary number.
+    // if should be the other way around 
         alert("1");
         break;
     case "2":
